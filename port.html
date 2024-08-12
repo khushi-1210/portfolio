@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio website</title>
+      <link rel="stylesheet"  href="style1.css">
+      <script src="https://kit.fontawesome.com/fe691a65e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div id="header">
+            <div class="container">
+             <nav>
+                  <img src="logoo.jpg" class="logo">
+                  <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
+             </nav>
+             <div class="header-text">
+                  <p>Software Engineer</p>
+                  <h1>Hi, I'm <span>khushi</span><br>Yadav From India</h1>
+             </div>
+            </div>
+      </div>
+   <!-- ------------about--------  -->
+
+      <div id="about">
+            <div class="container">
+                  <div class="row">
+                     <div class="about-co1-1">
+                        <img src="jpg1.jpg">
+                     </div> 
+                     <div class="about-co1-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>currently i am 3rd year persuing my computer engineering degee from INDIRA COLLEGE OF engineering AND MANAGEMENT
+                              i have done my schooling from DHANIRAJ school 
+
+                        </p>
+                        <div class="tab-titles">
+                              <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                              <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                              <ul>
+                                    <li><span>css/html</span><br>Designing web/app </li>
+                                    <li><span>web Devlopment</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Building unique design</li>
+                              </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                              <ul>
+                                    <li><span>projects</span><br>Designing web/app interfaces</li>
+                                    <li><span>website Building</span><br>travel MANAGEMENT</li>
+                                    <li><span>website design</span><br>logo</li>
+                              </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                              <ul>
+                                    <li><span>10th</span><br>DHANIRAJ school </li>
+                                    <li><span>12th</span><br>SNBP junior collage</li>
+                                    <li><span>BE</span><br>INDIRA COLLAGE OF engineering AND MANAGEMENT</li>
+                              </ul>
+                        </div>
+                     </div>   
+                  </div>
+            </div>
+      </div>
+<!-- -------services------- -->
+<div id="services">
+      <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                  <div>
+                        <i class="fa-solid fa-code"></i>
+                     <h2>Front-end Development</h2>
+                     <p>Front-end Development is the development or creation of a user interface
+                        using some markup languages and other tools. It is the development of the
+                        user side where only user interaction will be counted. </p>   
+                     <a href="#">Learn more</a>                     
+                  </div>
+                  <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>JAVA programming</h2>
+                        <p>I have created calculator using java </p>   
+                        <a href="#">Learn more</a>                     
+                  </div>
+                  <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Logo Design</h2>
+                        <p>Logo design is the art of creating a visual 
+                              symbol that captures a brand’s identity and
+                               differentiates it.</p>   
+                        <a href="#">Learn more</a>                     
+                  </div>
+            </div>
+
+      </div>
+</div> 
+<!-- -------------portfolio------------ -->
+ <div id="portfolio">
+      <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                  <div class="work">
+                     <img src="work1.jpeg">
+                     <div class="layer">
+                        <h3>CSS</h3>
+                        <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages,
+                               but how does it work under the hood? This article explains what CSS is
+                                with a simple syntax example and also covers some key terms about the
+                                 language.</p>
+                              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>   
+                  </div>
+                  <div class="work">
+                        <img src="work2.jpeg"> 
+                        <div class="layer">
+                              <h3>HTML</h3>
+                              <p>HyperText Markup Language, is the standard markup language used to create 
+                                    web pages. It’s a combination of Hypertext, which defines the link between
+                                     web pages, and Markup language, which is used to define the text document
+                                      within tags to structure web pages.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           </div>   
+                  </div>
+                  <div class="work">
+                        <img src="work3.jpeg">
+                        <div class="layer">
+                              <h3>JAVA</h3>
+                              <p>Java is a class-based, object-oriented programming language that is designed 
+                                    to have as few implementation dependencies as possible. It is intended to
+                                     let application developers write once, and run anywhere (WORA), meaning
+                                      that compiled Java code can run on all platforms that support Java without
+                                       the need for recompilation</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           </div>    
+                  </div>
+            </div>
+             <a href="#" class="btn">see more</a>
+      </div>
+
+ </div>
+ <!-- ------------contact-------- -->
+  <div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sum-title">Contact Me </h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>khushiryadav1210@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9764039857</p>
+                        <div class="social-icons">
+                              <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+                              <a href=""></a><i class="fa-brands fa-twitter-square"></i></a>
+                              <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+                              <a href=""></a><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="C:\Users\Khushi\Documents\Resume.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                              <input type="text" name="Name" placeholder="Your Name" required>
+                              <input type="email" name="email" placeholder="Your Email" required>
+                              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                              <div class="button" class="btn btn2">Submit</div>
+                        </form>
+                        <span id="msg"></span>
+                  </div>
+            </div>
+      </div>
+       <div class="copyright">
+            <p>copyright @ khushi.<i class="fa-solid fa-heart"></i></p>
+       </div>
+
+
+
+  </div>
+      <script>
+           var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+            for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+      </script>
+      <script>
+            var sidemenu= document.getElementById("sidemenu");
+
+            function openmenu(){
+                  sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                  sidemenu.style.right = "-200";
+            }
+      </script>
+      <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwUTgA7b1eziVQir9qDHfCv_D9FCM6A9XIPqiHicZXWaIAdPyxK3R6zdlUfcQXX9Y6dhA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                  msg.innerHTML = "message sent successfully"
+                  setTimeout(function(){
+                        msg.innerHTML = ""
+                  },5000)
+                  form.reset()
+
+                  
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+      
+</body>
+</html>
